@@ -1,0 +1,91 @@
+button{
+  color:green;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color:orange;
+  padding: 12px 10px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color:rgba(103, 221, 234, 0.2);
+}
+
+.col1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.col2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.rows{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.container{
+  background-color:bisque;
+}
+
+.box{
+  margin-left: 100px;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+
+.details{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.profile {
+  border: 2px solid orange;
+  box-shadow: violet;
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  padding: 15px;
+  border-radius: 18px;
+  background-color: pink;
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: violet;
+  transform: translateY(-3px);
+}
+.email {
+  color:darkblue;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  color:orangered;
+  font-size:25px;
+  font-weight: bold;
+}
+.userid{
+  color:orangered;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+
+}
+.loader{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
